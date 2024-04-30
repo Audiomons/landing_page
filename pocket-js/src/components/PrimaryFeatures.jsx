@@ -513,6 +513,9 @@ function FeaturesMobile() {
 
 export function PrimaryFeatures() {
   return (
+
+
+
     <section
       id="features"
       aria-label="Features for investing all your money"
