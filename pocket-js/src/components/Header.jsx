@@ -9,6 +9,15 @@ import { Container } from '@/components/Container'
 import { Logo } from '@/components/Logo'
 import { NavLinks } from '@/components/NavLinks'
 
+import Head from "next/head";
+
+
+
+
+
+
+
+
 function MenuIcon(props) {
   return (
     <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" {...props}>
@@ -48,6 +57,10 @@ function MobileNavLink(props) {
 export function Header() {
   return (
     <header>
+    <Head>
+        <link rel="icon" href="./app/favicon.ico"/>
+    </Head>
+
       <nav>
         <Container className="relative z-50 flex justify-between py-8">
           <div className="relative z-10 flex items-center gap-16">
