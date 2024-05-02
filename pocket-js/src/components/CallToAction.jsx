@@ -19,8 +19,6 @@ export function CallToAction() {
           <p className="mt-4 text-lg text-gray-300">
             We come from public health, machine learning, software engineering and psychology. Together, we're using cutting edge AI and psychology to support patients and amplify clinicians.
 
-            send you a tip guaranteed to double your
-            first investment.
           </p>
           {/*<div className="mt-8 flex justify-center">*/}
           {/*  <AppStoreLink color="white" />*/}

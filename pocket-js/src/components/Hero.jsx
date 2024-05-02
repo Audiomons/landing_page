@@ -100,11 +100,15 @@ export function Hero() {
             <h1 className="text-4xl font-medium tracking-tight text-gray-900">
               The simple way to engage patients and know who needs review.
             </h1>
-            {/*<p className="mt-6 text-lg text-gray-600">*/}
-            {/*  By leveraging insights from our network of industry insiders,*/}
-            {/*  you’ll know exactly when to buy to maximize profit, and exactly*/}
-            {/*  when to sell to avoid painful losses.*/}
-            {/*</p>*/}
+            <p className="mt-6 text-lg text-gray-600">
+              Alto is the easy-to-use platform that streamlines patient engagement and prioritises high risk patients for clinical review.
+
+
+            <br/>
+              <br/>
+              Reducing manual administration, freeing up staff time, maximising clinical impact, and making patients happier.
+
+            </p>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-4">
               {/*<AppStoreLink />*/}
               <Button
