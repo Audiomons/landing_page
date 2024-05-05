@@ -6,6 +6,7 @@ import clsx from 'clsx'
 import { AnimatePresence, motion } from 'framer-motion'
 import { useDebouncedCallback } from 'use-debounce'
 import landing_1 from '@/images/landing1-connect-patients.svg'
+import landing_2 from '@/images/landing1-personalized-care.svg'
 
 import { AppScreen } from '@/components/AppScreen'
 import { CircleBackground } from '@/components/CircleBackground'
@@ -519,28 +520,67 @@ export function PrimaryFeatures() {
     <section
       id="features"
       aria-label="Features for investing all your money"
-      className="bg-green py-20 sm:py-32"
     >
-      <Container className="flex justify-center items-center">
-        <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
-          <h2 className="text-3xl font-medium tracking-tight text-black ">
-            Personalised care in an overwhelmed system
+        <section className="py-20 sm:py-32 flex flex-col lg:flex-row justify-center items-center">
+            <Container className="flex justify-center items-center lg:w-1/2">
+                <Image className="items-center" src={landing_2} alt="Hero Image" />
+            </Container>
+            <Container className="mx-auto max-w-2xl lg:mx-0 lg:max-w-2xl lg:w-1/2 lg:flex-row">
+                <div className="mr-4 lg:mr-8">
+                    <h2 className="text-3xl font-medium tracking-tight text-black ">
+                        Personalised care in an overwhelmed system
+                    </h2>
+                    <p className="mt-2 text-lg text-center lg:text-left">
+                        Today, clinicians find themselves spending vast time on routine tasks like contacting new referrals for triage information, waitlist management and history taking, diverting them from high value patient care.
+                    </p>
 
-          </h2>
-          <p className="mt-2 text-lg text-center">
-            Alto’s platform offers patients easy access and guidance, and clinicians evidence-based assessment, connection and data driven decisions. Increasing adherence, reducing manual tasks and enabling you to focus on the most important patient care.
-          </p>
-        </div>
+                    <br/>
+                    <p className="mt-2 text-lg text-center lg:text-left">
+                        Outside the clinic, patients feel isolated, and disconnected from their clinical team. They enter the system 'unseen'.
+                    </p>
+                    <br/>
+
+                    <h2 className="text-3xl font-medium tracking-tight text-black ">
+                        The Result?
+                    </h2>
+                    <p className="mt-2 text-lg text-center lg:text-left">
+                        The result? A healthcare environment strained by inefficiencies, where manual efforts to bridge the gaps are the norm, and both patients and clinicians spend their time navigating complexity and challenge.
+                    </p>
+                </div>
+            </Container>
+
+        </section>
 
 
-      </Container>
 
-        <Container className="flex justify-center items-center mt-8">
-            <Image className="items-center" src={landing_1} alt="Hero Image" width={936}/>
-        </Container>
+
+
+
+
+        <section className="py-20 sm:py-32 bg-green ">
+            <Container className="flex justify-center items-center">
+                <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-3xl">
+                    <h2 className="text-3xl font-medium tracking-tight text-black ">
+                        Personalised care in an overwhelmed system
+                    </h2>
+                    <p className="mt-2 text-lg text-center">
+                        Alto’s platform offers patients easy access and guidance, and clinicians evidence-based assessment, connection and data driven decisions. Increasing adherence, reducing manual tasks and enabling you to focus on the most important patient care.
+                    </p>
+                </div>
+            </Container>
+            <Container className="flex justify-center items-center mt-8">
+                <Image className="items-center" src={landing_1} alt="Hero Image" width={936}/>
+            </Container>
+        </section>
 
 
 
     </section>
+
+
+
+
+
+
   )
 }

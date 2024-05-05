@@ -24,11 +24,10 @@ const plans = [
       href: '/register',
     },
     features: [
-      'Automate referrals Patient',
-      'Education Remote',
-      'Assessment Medication',
-      'Adherence Voice AI calls',
-        'NLP- based Q&A'
+      'Automate referrals',
+      'Waitlist validation',
+      'Referral Prioritisation',
+      'Voice AI calls',
     ],
     logomarkClassName: 'fill-gray-300',
   },
@@ -47,8 +46,7 @@ const plans = [
         features: [
             'Reduce inbox notifications',
             'Automated check-ins',
-            'Patient reported outcomes collection',
-            'Triage & escalation',
+            'Collect missing information',
             'Two-way texting'
         ],
         logomarkClassName: 'fill-gray-300',

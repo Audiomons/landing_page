@@ -11,10 +11,9 @@ const features = [
     icon: DeviceArrowIcon,
   },
   {
-    name: 'Save time by leaving Alto to collect vital information\n',
+    name: 'Release Time\n',
     description:
-      'Alto gathers all the information you need demographics, history at the point of referral\n' +
-        '\n',
+      'Alto saves your team time in administration and prioritisation',
     icon: DeviceCardsIcon,
   },
   {
@@ -41,8 +40,7 @@ const features = [
   {
     name: 'Improve outcomes\n',
     description:
-      'Patient engagement is associated with adherence and outcome improvements\n' +
-        '\n',
+      'Early patient engagement is associated with adherence and outcomes improvements',
     icon: DeviceChartIcon,
   },
 ]
