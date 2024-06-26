@@ -1,3 +1,4 @@
+"use client"; // This is a client component 👈🏽
 import { useId } from 'react'
 import Image from 'next/image'
 import clsx from 'clsx'
@@ -18,6 +19,8 @@ import logoWired from '@/images/logos/wired.svg'
 import heroImage from '@/images/hero.png'
 import cyber from '@/images/logos/Cyber-Essentials-Logo-1.png'
 import landing_1 from '@/images/landing1-connect-patients.svg'
+import React, { useEffect } from 'react';
+import Intercom from '@intercom/messenger-js-sdk';
 
 function BackgroundIllustration(props) {
   let id = useId()
@@ -91,7 +94,11 @@ function BackgroundIllustration(props) {
 
 export function Hero() {
 
-
+  useEffect(() => {
+    Intercom({
+      app_id: 'xjdjwi2t',
+    });
+  }, []);
 
   return (
 
