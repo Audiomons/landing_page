@@ -12,7 +12,7 @@ const inter = Inter({
 export const metadata = {
   title: {
     template: '%s - Alto',
-    default: 'Alto Health - The simple way to engage patients and know who needs review.',
+    default: 'Alto Health - The simple way to engage patients and know who needs review',
   },
   description:
     'Alto is the easy-to-use platform that streamlines patient engagement and prioritises high risk patients for clinical review. <br>\n' +

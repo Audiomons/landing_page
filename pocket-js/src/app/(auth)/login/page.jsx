@@ -18,7 +18,7 @@ export default function Login() {
           <Link href="https://l4arcldd4pj.typeform.com/to/cwiFTwIM" className="text-cyan-600">
             Sign up
           </Link>{' '}
-          for a free trial.
+          {/*for a free trial.*/}
         </>
       }
     >
